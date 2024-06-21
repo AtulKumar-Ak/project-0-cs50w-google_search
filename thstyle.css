@@ -1,0 +1,9 @@
+#th{
+    width: 450px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 20px;
+}

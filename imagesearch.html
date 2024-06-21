@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search Image</title>
+        <link rel="stylesheet" href="thstyle.css">
+        <style>
+            a{
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 20px;
+            }
+            #div1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+
+            }
+            #gs{
+                margin-left: 170px;
+                padding: 10px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Google Search</a>
+        <div id="div1">
+            <form action="http://image.google.com/images">
+                <img src="googleimageslogo.png" alt="image" style="height: 120px;width: 280px;padding-left: 90px;">
+                <br>
+                <input id="th" type="text" placeholder="  " name="q">
+                <input type="hidden" id="custId" name="custId" value="3487">
+                <br>
+                <input style="margin-top: 30px;" id="gs" type="submit" value="Search Image" name="btnK">
+                
+            </form>
+        </div>
+        
+    </body>
+</html>

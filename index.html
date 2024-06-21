@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New Tab</title>
+        <link rel="stylesheet" href="thstyle.css">
+        <style>
+            .button{
+                margin-left: 40px;
+                padding: 10px;
+    
+            }
+            #div1{
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                align-items: center;
+                margin: 0;
+            }
+            #div2{
+                right: 0;
+                position: absolute;
+                top: 0;
+            }
+            #div3{
+                margin-left: 54px;
+                margin-top: 30px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div id="div2">
+            <a href="imagesearch.html">Image Search</a>
+            <br>
+            <a href="advancesearch.html">Advance Search</a>
+
+        </div>
+        <div id="div1">
+            <form action="https://www.google.com/search">
+            <img src="googlelogo.png" alt="image" style="height: 120px;width: 280px;padding-left: 90px;">
+            <br>
+            <input id="th" type="text" placeholder="  Search Google or Type a URL" name="q">
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <br>
+            <div id="div3">
+            <input class="button" type="submit" value="Google Search" name="btnK">
+            <input class="button"type="submit" value="I am feeling lucky" name="btnI">
+            </div>
+
+        </form>
+        </div>
+    </body>
+</html>
